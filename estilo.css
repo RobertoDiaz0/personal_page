@@ -118,12 +118,12 @@ html, body {
 }
 
 .a {
-  color:orange;
+  color:lightblue;
   }
 
 @media screen and (min-width: 320px) {
   .presentación {
-    font-size: 7.5vmin;
+    font-size: 8vmin;
     margin-top: 4.5vh;
     
   }
