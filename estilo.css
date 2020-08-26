@@ -1,4 +1,4 @@
-  html, body {
+html, body {
   height: 300vh;
   margin: 0;
 }
@@ -125,8 +125,8 @@
   .presentación {
     font-size: 7.5vmin;
     margin-top: 4.5vh;
+    
   }
-}
   
 @media screen and (min-width: 400px) {
   .presentación {
