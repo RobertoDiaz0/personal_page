@@ -1,4 +1,4 @@
-html, body {
+  html, body {
   height: 300vh;
   margin: 0;
 }
@@ -38,14 +38,17 @@ html, body {
 .presentación {
   display: grid;
   justify-content: center;
-  margin-left: 10vw;
+  margin-left: 4vw;
   margin-right: 6vw;
-  margin-top: 5vh;
+  margin-top: 3.5vh;
   font-family: 'Baloo Tamma 2';
-  font-size: 8vmin;
+  font-size: 7.5vmin;
   color: grey;
   grid-row: 2/9;
   grid-column: 2/3;
+  text-align: justify all;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .footers {
@@ -116,30 +119,32 @@ html, body {
 
 .a {
   color:lightblue;
-}
+  }
+
 @media screen and (min-width: 320px) {
   .presentación {
-    font-size: 6.5vmin;
+    font-size: 7.5vmin;
     margin-top: 4.5vh;
+    
   }
   
 @media screen and (min-width: 400px) {
   .presentación {
-    font-size: 5.8vmin;
+    font-size: 7vmin;
     margin-top: 3vh;
   }
 }
 
 @media screen and (min-width: 540px) {
   .presentación {
-    font-size: 5vmin;
+    font-size: 6vmin;
     margin-top: 5vh;
   }
 }
 
 @media screen and (min-width: 768px) {
   .presentación {
-    font-size: 6vmin;
-    margin-top: 5vh;
+    font-size: 6.5vmin;
+    margin-top: 6vh;
   }
 }
