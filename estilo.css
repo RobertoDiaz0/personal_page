@@ -125,9 +125,9 @@ html, body {
   .presentación {
     font-size: 8vmin;
     margin-top: 4.5vh;
-    
   }
-  
+}
+
 @media screen and (min-width: 400px) {
   .presentación {
     font-size: 7vmin;
