@@ -15,7 +15,7 @@ html, body {
   grid-row: 1/2;
   grid-template-columns: 1fr 1fr; 
   background: rgba(255, 182, 193, 0.507);
-  minmax(0%, 15%) 1fr minmax(30%, 40%)
+  minmax(0%, 12%) 1fr minmax(30%, 40%)
   opacity: .95;
 }
 
