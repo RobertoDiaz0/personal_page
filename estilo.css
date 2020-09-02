@@ -23,7 +23,7 @@ html, body {
   display: grid;
   grid-column: 1/3; 
   grid-template-rows: .6fr 6fr .8fr;
-  grid-template-columns: minmax(0%, 15%) 1fr minmax(30%, 40%);
+  grid-template-columns: minmax(0%, 15%) 1fr minmax(32%, 42%);
 }
 .footers {
 grid-column: 1/3;
