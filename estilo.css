@@ -1,11 +1,13 @@
-html {
+html, body {
   height: 300vh;
 }
-.primera_pantalla{
-  height: 100h;
-  width: 100vw;
+.z{
+  height: 101vh;
+  width: 101vw;
   display: grid;
   grid-template-rows: 12% 70% 15%;
+  margin-top:-2vh;
+  margin-left:-0.5vw;
 }
 .encabezado {
   display: grid;
@@ -101,6 +103,10 @@ cursor: pointer;
 }
 
 .segunda_pantalla {
+  height: 102vh;
+  margin-top: -3.1vh;
+  margin-right: -2.8vw;
+  margin-left: -.5vw;
   display: grid;
   grid-template-columns: minmax(17%, 25%) 1fr;
   grid-template-rows: 1fr 3fr 1fr;
