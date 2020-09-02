@@ -1,54 +1,180 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="pruebastyle.css">
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=' rel='stylesheet'>
-</head>
-<body><div class="z">
-  <div class="encabezado">
-    <div class="idioma"><u>español</u></div>
-    <div class="idioma">english</div>
-  </div>
-<div class="presentación">
-  <div class="marga"></div>
-  <div class="margb"></div>
-  <div class="margc"></div>
-  <div class="margd">
-    <div class="a">Bienvenido</div> 
-    <div class="b">desarrollo</div>
-    <div class="b">proyectos en</div>
-    <div class="a"><span class="b">en&nbsp;</span>Python  <span class="b">y</span></div>
-  </div>
-  <div class="marge">
-     <div></div>
-     <div></div>
-     <div></div>
-     <div class="a"><span class="blanco">Javascript</span></div>
-  </div>
-  <div class="margf"></div>
-  <div class="margg"></div>
-</div>
-<div class="footers">
-  <div class="link" onclick="scrollWin()">skills</div>
-  <div class="link">repositories</div>
-  <div class="link">contact</div>
-</div>
-</div>
-<div class="segunda_pantalla">
-  <div class="bloque"></div>
-  <div class="header_2"></div>
-  <div class="lateral_2"></div>
-  <div class="presentacion_2"></div>
-  <div class="bloque_2"></div>
-</div>
-<div class="tercera_pantalla">
- <div class="tercera_presentación"></div>
- <div class="tercera_caja"></div>
- </div>
-</body>
-</html>
+html, body {
+  height: 300vh;
+}
+.z{
+  height: 101vh;
+  width: 101vw;
+  display: grid;
+  grid-template-rows: 12% 70% 15%;
+  margin-top:-2vh;
+  margin-left:-0.5vw;
+}
+.encabezado {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  grid-template-columns: 1fr 1fr; 
+  background: rgba(255, 182, 193, 0.507);
+  minmax(0%, 15%) 1fr minmax(30%, 40%)
+  opacity: .95;
+}
 
-</body>
-</html>
+.presentación {
+  display: grid;
+  grid-column: 1/3; 
+  grid-template-rows: .6fr 6fr .8fr;
+  grid-template-columns: minmax(0%, 15%) 1fr minmax(30%, 40%);
+}
+.footers {
+grid-column: 1/3;
+grid-row: 3/4;
+display: grid;
+background: grey;
+opacity: .43;
+color: white;
+font-family: 'Pacifico';
+display: flex;
+justify-content: space-around;
+}
+.link {
+font-size: 4.3vmin;
+margin: auto;
+cursor: pointer;
+}
+
+.idioma  {
+display: grid;
+place-items: center;
+font-size: 4.8vmin;
+font-family: 'Pacifico';
+color: white;
+opacity: 1;
+cursor: pointer; 
+}
+
+.marga {
+  grid-column: 1/3;
+  background: rgba(8, 138, 131, 0.246);
+}
+.margb {
+  grid-column: 3/4;
+  background: rgba(248, 248, 213, 0.924);
+}
+.margc {
+  background: rgba(248, 248, 213, 0.924);
+}
+.margd {
+  font-family: 'Vollkorn';
+  text-align: right;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 3vh;
+  background: rgba(233, 233, 233, 0.438);
+  padding-right: 1.8rem;
+  text-align: right;
+}
+
+.b  {
+  font-size: 5.5vmin;
+  color: rgb(153, 171, 173);
+}
+.a {
+  font-size: 6.5vmin;
+  color: rgba(214, 118, 39, 0.774);
+}
+.blanco {
+  color: white;
+  font-family: 'Vollkorn';
+}
+.marge {
+  display: grid;
+  padding-top: 3vh;
+  background: rgba(173, 216, 230, 0.623);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-left: 1.8rem;
+}
+.margf {
+  background: rgba(213, 229, 248, 0.863);
+}
+
+.margg {
+  background: rgba(255, 163, 126, 0.404);
+  grid-column: 2/4 ;
+}
+
+.segunda_pantalla {
+  height: 102vh;
+  margin-top: -3.1vh;
+  margin-right: -2.8vw;
+  margin-left: -.5vw;
+  display: grid;
+  grid-template-columns: minmax(17%, 25%) 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  color: black;
+}
+.bloque {
+  background: rgb(121, 148, 121);
+  opacity: .42;
+}
+.header_2 {
+  background: gray;
+  opacity: .5;
+}
+.lateral_2 {
+  background: lightseagreen;
+  opacity: .32;
+}
+.bloque_2 {
+  background: lightseagreen;
+  opacity: .32;
+}
+
+.tercera_pantalla {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding: 0px;
+  flex-direction: columns;
+  align-items: stretch;
+}
+.tercera_presentación {
+  flex: 1 1 200px;
+  background: lightblue;
+  opacity: .45;
+  margin: 0px;
+  min-width: 60vw;
+  min-height: 40vh;
+}
+.tercera_caja {
+  background: pink;
+  opacity: .35;
+  min-width: 200px ;
+  margin: 0px;
+  align-items: stretch;
+  flex: 1 1;
+}
+
+@media screen and (min-width: 320px) {
+
+}
+
+@media screen and (min-width: 400px) {
+
+}
+
+@media screen and (min-width: 470px) {
+
+}
+
+@media screen and (min-width: 540px) {
+.margd {
+  }
+.presentación {
+  grid-template-columns: minmax(0%, 35%) 1fr minmax(30%, 40%);
+  }   
+}
+@media screen and (min-width: 540px) {
+
+@media screen and (min-width: 768px) {
+
+}
