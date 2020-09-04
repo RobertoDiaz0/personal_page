@@ -68,7 +68,7 @@ cursor: pointer;
   text-align: right;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  padding-top: 3vh;
+  padding-top: 11vh;
   background: rgba(233, 233, 233, 0.438);
   padding-right: 1.8rem;
   text-align: right;
@@ -95,7 +95,8 @@ cursor: pointer;
   color: white;
   font-family: 'Vollkorn';
   padding-left: 1.8rem;
-  padding-top: 0.7vh;
+  padding-top: 2.7vh;
+  background: rgba(255, 200, 209, 0.829);
 }
 
 .margf {
@@ -113,10 +114,10 @@ cursor: pointer;
 }
 
 .colora {
-  background: rgb(255, 190, 200);
+  background: rgba(255, 200, 209, 0.829);
 }
 .colorc {
-  background: lightgray;
+  background: rgb(230, 230, 230);
 }
 
 
