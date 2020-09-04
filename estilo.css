@@ -23,7 +23,7 @@ html, body {
   display: grid;
   grid-column: 1/3; 
   grid-template-rows: .6fr 6fr .8fr;
-  grid-template-columns: minmax(0%, 12%) 1fr minmax(35%, 42%);
+  grid-template-columns: minmax(0%, 15%) 1fr minmax(30%, 40%);
 }
 .footers {
 grid-column: 1/3;
@@ -82,25 +82,43 @@ cursor: pointer;
   font-size: 6.5vmin;
   color: rgba(214, 118, 39, 0.774);
 }
-.blanco {
-  color: white;
-  font-family: 'Vollkorn';
-}
+
 .marge {
   display: grid;
-  padding-top: 3vh;
-  background: rgba(173, 216, 230, 0.623);
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  padding-left: 1.8rem;
+  background: rgba(213, 229, 248, 0.904);
+  grid-template-rows: 1.5fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
+
+.c {
+  font-size: 6.5vmin; 
+  color: white;
+  font-family: 'Vollkorn';
+  padding-left: 1.8rem;
+  padding-top: 0.7vh;
+}
+
 .margf {
   background: rgba(213, 229, 248, 0.863);
+
 }
 
 .margg {
   background: rgba(255, 163, 126, 0.404);
   grid-column: 2/4 ;
 }
+
+.colorb {
+  background: rgba(248, 248, 213, 0.924);
+}
+
+.colora {
+  background: rgb(255, 190, 200);
+}
+.colorc {
+  background: lightgray;
+}
+
 
 .segunda_pantalla {
   height: 102vh;
