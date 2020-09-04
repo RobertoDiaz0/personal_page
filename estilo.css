@@ -70,7 +70,7 @@ cursor: pointer;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   padding-top: 11vh;
   background: rgba(233, 233, 233, 0.438);
-  padding-right: 1vw;
+  padding-right: 1.5vw;
   text-align: right;
 }
 
@@ -94,7 +94,7 @@ cursor: pointer;
   font-size: 6.5vmin; 
   color: white;
   font-family: 'Vollkorn';
-  padding-left: 1vw;
+  padding-left: 1.2vw;
   padding-top: 2.7vh;
   background: rgba(255, 200, 209, 0.829);
 }
